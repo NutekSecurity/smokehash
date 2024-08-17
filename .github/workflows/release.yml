@@ -51,7 +51,7 @@ jobs:
       - name: Release Binary
         shell: bash
         run: |
-          PROJECT_NAME="nutek-cipher"
+          PROJECT_NAME="smokehash"
           BIN_SUFFIX=""
           if [[ "${{ matrix.runner }}" == "windows-latest" ]]; then
             BIN_SUFFIX=".exe"
