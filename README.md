@@ -1,5 +1,7 @@
 # Smoke Hash
 
+![Smoke Hash](logo-small.png)
+
 Check for file changes across your filesystem (Windows, Linux, macOS - if your system is not listed, try with cargo install or download source and build)
 
 ## Installation
