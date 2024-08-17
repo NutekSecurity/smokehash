@@ -1,0 +1,15 @@
+[package]
+name = "smokehash"
+version = "0.1.0"
+edition = "2021"
+categories = ["command-line-interface"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+keywords = ["changes", "hash", "files"]
+authors = ["Neosb <neosb@nuteksecurity.com>"]
+description = "Check files for changes using SHA256 hash function using user provided lists file"
+
+[dependencies]
+sha256 = "1.5.0"
+clap = { version = "4.1.4", features = ["derive"] }
+walkdir = "2.5.0"
